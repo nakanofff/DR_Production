@@ -1,0 +1,20 @@
+$(function(){
+  $('#first_animetion0').delay(3000).queue(function(){
+    $(this).addClass('animetion_hidden');
+    $(this).css('display','none').delay(1000);
+  });
+  $('#first_animetion').delay(3000).queue(function(){
+    $(this).addClass('animetion_hidden');
+    $(this).css('display','none').delay(1000);
+  });
+  $('#first_animetion2').delay(6000).queue(function(){
+      $(this).addClass('animetion_hidden');
+      $(this).css('display','none').delay(1000);
+    });
+  $('#menu_button').click(function(){
+    $('#menu').addClass('close_menu');
+  });
+  $('#close_button').click(function(){
+    $('#menu').removeClass('close_menu');
+  });
+});

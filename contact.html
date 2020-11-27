@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>DesignRecord-contact-</title>
+    <meta name="description" content="DesignRecordのコンタクトページです。お問い合わせやチームウェアの作成依頼等はこちらへお願いいたします。">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="first_anime.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="contact.css">
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 id="DR_logo"><a href="index.heml"><img src="DesignRecordLogo.png" alt="デザインレコード DesignRecord"></a></h1>
+      <div id="menu_button">
+      <p>menu</p>
+      </div>
+      <a href="https://kandmcycle.stores.jp/"><button type="button" name="header_buy_button" class="header_buy_button">ウェアの購入はこちらから</button></a>
+    </header>
+
+    <section id="menu">
+      <div id="menu_wrap">
+        <nav>
+          <ul class="page_wrap">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="product.html">PRODUCTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li class="port" style="display: none;"><a href="#">DESIGNER's PORTFOLIO!!</a></li>
+          </ul>
+          <ul class="sns_wrap" style="display: none;">
+            <button onclick="#">Twitter</button>
+            <button onclick="#">instagram</button>
+            <button onclick="#">pintarest</button>
+          </ul>
+        </nav>
+        <p class="menu_img"><img src="starry_3.jpg" alt="デザインレコードジャージ"></p>
+      </div>
+      <div id="close_button">
+        <p>CLOSE</p>
+      </div>
+    </section>
+
+    <main id="contact">
+      <div id="contact_wrap">
+        <h2>CONTACT</h2>
+        <form method="post" action="mailto:yoyoshiki0514@gmail.com"　enctype="text/plain"　accept-charset="Shift-JIS">
+          <ul>
+            <li class="form_wrap">
+              <label for="NAME">NAME</label><br>
+              <input type="text" name="user_name" required="required">
+            </li>
+            <li class="form_wrap">
+              <label for="E-MAIL">E-MAIL</label><br>
+              <input type="text" name="user_email" required="required">
+            </li>
+            <li class="form_wrap">
+              <label for="MESSAGE">MESSAGE</label><br>
+              <textarea name="user_mesage" required="required"></textarea>
+            </li>
+            <button type="submit" name="button" class="form_send">送信</button>
+          </ul>
+        </form>
+      </div>
+    </main>
+
+    <section id="first_animetion0">
+      <p data-text="CONTACT.">CONTACT.</p>
+    </section>
+
+
+  </body>
+</html>

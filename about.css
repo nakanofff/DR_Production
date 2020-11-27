@@ -1,0 +1,117 @@
+@charset "UTF-8";
+.section{
+  display: flex;
+}
+.section_left{
+  width: 50vw;
+  height: 100vh;
+}
+.section_left img,.section_left iframe{
+  position: absolute;
+  width: 50vw;
+  height: 100vh;
+  object-fit: cover;
+}
+.about_title{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about_title h3{
+  color: #000000;
+  font-size: 2.8vw;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 100;
+  margin: 0;
+  font-feature-settings: "palt";
+  padding-left: 8vw;
+}
+
+.about_title p{
+  color: #000000;
+  font-size: 1vw;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 100;
+  margin-top: 2px;
+  font-feature-settings: "palt";
+  padding-left: 8vw;
+}
+.button_wrap{
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about_button{
+  width: 32vw;
+  height: 6vh;
+  border-radius: none;
+  border: 0.3px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 100;
+  font-size: 1.4vw;
+  margin-top: 3vh;
+  font-feature-settings: "palt";
+
+}
+.about_button a{
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 100;
+  font-size: 1.4vw;
+}
+.br_pc{
+  display: block;
+}
+.br_sm{
+  display: none;
+}
+@media screen and (max-width: 420px){
+  .br_pc{
+    display: none;
+  }
+  .br_sm{
+    display: block;
+  }
+  .about_title{
+
+  }
+  .about_title h3{
+    color: #000000;
+    font-size: 6vw;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 100;
+    margin: 0;
+    font-feature-settings: "palt";
+    padding-left: 4vw;
+  }
+  .about_title p{
+    color: #000000;
+    font-size: 3.2vw;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 100;
+    margin-top: 2px;
+    font-feature-settings: "palt";
+    padding-left: 4vw;
+  }
+  .about_button{
+    width: 45vw;
+    height: 6vh;
+    border-radius: none;
+    border: 0.3px solid #000000;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 100;
+    font-size: 1.4vw;
+    margin-top: 3vh;
+    font-feature-settings: "palt";
+    text-align: left;
+  }
+}
