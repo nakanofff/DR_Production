@@ -94,7 +94,7 @@
   font-size: 1.4vw !important;
 }
 .products_design{
-
+  width: 28vw;
 }
 .products_design h4{
   color: #000000;
@@ -181,6 +181,9 @@
     font-weight: 100;
     margin-top: 2px;
     font-feature-settings: "palt";
+  }
+  .products_design{
+    width: 45vw;
   }
   .products_design h4{
     color: #000000;
